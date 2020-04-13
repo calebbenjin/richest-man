@@ -12,6 +12,7 @@ body {
   margin: 0;
   background: #ccc;
   padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -52,6 +53,29 @@ button:hover {
 
 main {
   padding: 20px;
-  border-top: solid 1px #111;
   width: 60%;
+}
+
+h2 {
+  border-bottom: solid 1px #111;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+h3 {
+  border-bottom: solid 1px #111;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin: 20px 0 0;
+  background: #fff;
+  padding: 10px;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
