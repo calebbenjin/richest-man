@@ -1,7 +1,7 @@
 ### Richest-man
 
-` this app is built with the most commonly us array methods... Array.map, Array.reduce, Array.sort, Array.filter, forEach`.
+`This app is built with the most commonly use array methods... Array.map, Array.reduce, Array.sort, Array.filter, forEach`.
 
-### u can view the App with this Url
+### view the App with this Url
 
 ``
