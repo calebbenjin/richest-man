@@ -33,6 +33,15 @@ function addData(obj) {
   updateDom();
 }
 
+// Double money
+function doubleMoney() {
+  data = data.map(function(user) {
+    return {...user, money: user.money * 2 }
+  })
+
+  updateDom();
+}
+
 // Update DOM
 function updateDom(providedData = data) {
   // clear main div
@@ -54,3 +63,4 @@ function formatMoney(number) {
 
 // Event listeners
 addUserBtn.addEventListener('click', getRandomUser);
+doubleMoneyBtn.addEventListener('click', doubleMoney);
