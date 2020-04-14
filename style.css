@@ -10,9 +10,14 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background: #ccc;
+  background: #141414;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-top: 2rem;
+  color: #ccc;
 }
 
 .container {
@@ -21,7 +26,7 @@ body {
   margin: 0 auto;
   max-width: 100%;
   width: 800px;
-  background: #f3f3f3;
+  background: #272727;
   margin-top: 20px;
   border-radius: 4px;
   box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -34,16 +39,17 @@ aside {
 }
 
 button {
-  background: #fff;
+  background: #2f2f2f;
   display: block;
   margin-bottom: 20px;
   padding: 10px;
-  border: solid 1px #111;
+  border: solid 1px #ccc;
   border-radius: 4px;
   cursor: pointer;
   width: 100%;
   font-size: 14px;
   transition: all 0.3s linear;
+  color: #ccc;
 }
 
 button:hover {
@@ -56,12 +62,17 @@ main {
   width: 60%;
 }
 
+p, strong, h2, h4, h5, h6, span {
+  color: #ccc;
+}
+
 h2 {
-  border-bottom: solid 1px #111;
+  border-bottom: solid 1px #ccc;
   display: flex;
   justify-content: space-between;
   font-weight: 300;
   margin: 0 0 20px;
+  color: #ccc;
 }
 h3 {
   display: flex;
@@ -72,6 +83,10 @@ h3 {
   padding: 10px;
   box-shadow: 4px 2px 4px 2px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
+  color: #272727 !important;
+}
+h3 strong {
+  color: #272727;
 }
 
 .person {

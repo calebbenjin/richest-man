@@ -67,12 +67,12 @@ function calculatWealth() {
 // Update DOM
 function updateDom(providedData = data) {
   // clear main div
-  main.innerHTML = '<h2><strong>Person</strong> Wealth</h2>';
+  main.innerHTML = '<h2><strong>Person</strong>Wealth</h2>';
 
   providedData.forEach(person => {
     const element = document.createElement('div');
     element.classList.add('person');
-    element.innerHTML = `<strong>${person.name}</strong> ${formatMoney(person.money)}`;
+    element.innerHTML = `<strong>${person.name}</strong> <span>${formatMoney(person.money)}</span>`;
     main.appendChild(element);
   });
 }
